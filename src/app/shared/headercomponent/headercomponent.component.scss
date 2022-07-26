@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+header{
+  width: 1200px;
+  margin: auto;
+  background-color: aquamarine;
+  padding: 40px 10px;
+}
+
+header .content{
+  display: flex;
+}
+
+header a{
+  margin-left: 600px;
+  font-size: 30px;
+  padding: 5px 10px;
+  background-color: orange;
+  border-radius: 10px;
+  color: white;
+}
+
+header a:hover{
+background-color: blueviolet;
+}
