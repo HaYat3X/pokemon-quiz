@@ -6,15 +6,16 @@
 
 
 .question input{
+  padding: 20px 0;
   width: 700px;
   border: none;
+  color: #EF810F;
 }
 
-.hint img{
-  width: 300px;
-  height: 300px;
-  margin-left: 350px;
+.question{
+  padding: 50px 30px;
 }
+
 
 // .answer input{
 //   width: 100px;
@@ -28,15 +29,31 @@
 //   background-color: blue;
 // }
 
+.hint{
+  border: 5px solid #4C8DCB;
+  padding: 50px 0;
+  border-radius: 30px;
+  margin: 20px;
+}
+
+.hint input{
+  width: 250px;
+  border: none;
+  color: #EF810F;
+}
+
 .answer button{
-  margin: 30px;
+  margin-top: 50px;
+  margin-left: 45px;
   border: none;
   color: white;
-  background-color: chocolate;
-  padding: 10px 15px;
+  background-color: #4C8DCB;
+  padding: 10px 50px;
   border-radius: 10px;
 }
 
 .answer button:hover{
-  background-color: blue;
+  background-color: #EF810F;
 }
+
+
