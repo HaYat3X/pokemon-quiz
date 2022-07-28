@@ -7,7 +7,7 @@ import { QuizComponent } from './quiz/quiz.component';
 
 @NgModule({
   declarations: [
-    QuizComponent
+
   ],
   imports: [
     CommonModule,

@@ -1,30 +1,48 @@
+ @import url("https://use.typekit.net/rpu8qqz.css");
+
 *{
   margin: 0;
   padding: 0;
 }
 
-
+body{
+  background-color: #E6E6E6;
+}
 
 header{
   width: 1200px;
   margin: auto;
-  background-color: aquamarine;
+  background-color: white;
   padding: 40px 10px;
-}
-
-header .content{
+  border-radius: 20px;
   display: flex;
 }
 
+header img{
+  width: 130px;
+  height: 100px;
+}
+
+header h1{
+  font-size: 80px;
+  font-weight: 700;
+  font-family: reross-quadratic, sans-serif;
+  color: #EF810F;
+}
+
 header a{
-  margin-left: 600px;
-  font-size: 30px;
-  padding: 5px 10px;
-  background-color: orange;
+
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 400px;
+  padding: 10px 20px;
+  background-color: #4C8DCB;
   border-radius: 10px;
   color: white;
+  text-decoration: none;
 }
 
 header a:hover{
-background-color: blueviolet;
+background-color: #EF810F;
 }

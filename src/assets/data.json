@@ -1,0 +1,29 @@
+[
+  {
+    "number": 25,
+    "name": "ピカチュウ",
+    "type": "でんき",
+    "Characteristic": ["せいでんき"]
+ },
+
+  {
+    "number": 20,
+    "name": "ゼニガメ",
+    "type": "でんき",
+    "Characteristic": ["せいでんき"]
+ },
+
+{
+    "number": 94,
+    "name": "ゲンガー",
+    "type": "ゴースト/どく",
+    "Characteristic": ["のろわれボディ"]
+ },
+
+ {
+    "number": 4,
+    "name": "ヒトカゲ",
+    "type": "ほのお",
+    "Characteristic": ["もうか"]
+ }
+]

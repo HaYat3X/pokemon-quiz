@@ -1,13 +1,27 @@
-<h2>問題　このポケモンの名前はなんでしょうか？</h2>
+<div class="question">
+  <form [formGroup]="myForm">
+    <h2>問題　<input readonly formControlName="question"></h2>
+  </form>
+</div>
+
 <div class="hint">
-  <img src="../../../assets/img/5bb0cfd44302cd4df0c0c88d37457931.png" alt="" width="100" height="100">
-  <h3>・ヒント1　電気タイプのポケモンです。</h3>
-   <h3>・ヒント2　特性はせいでんきです。</h3>
+  <img src="../../../assets/img/1b2c61109f42e1719931959e06cbc4ac.jpeg" alt="" width="100" height="100">
+  <form [formGroup]="myForm">
+    <h3>・ヒント1　図鑑番号<input formControlName="hint1" readonly>番のポケモンです。</h3>
+    <h3>・ヒント2　<input formControlName="hint2" readonly>のポケモンです。</h3>
+    <h3>・ヒント3　特性は <input formControlName="hint3" readonly> です。</h3>
+  </form>
 </div>
 
 <div class="answer">
- <button>フシギダネ</button>
- <button>ヒトカゲ</button>
- <button>ピカチュウ</button>
- <button>ゼニガメ</button>
+  <form [formGroup]="myForm">
+    <button><input formControlName="dummy1" readonly></button>
+    <button><input formControlName="dummy2" readonly></button>
+    <button><input formControlName="dummy3" readonly></button>
+    <button><input formControlName="answer" readonly></button>
+  </form>
 </div>
+
+
+
+
